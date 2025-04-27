@@ -7,7 +7,7 @@ body {
     background-color: #000;
     color: #fff;
     text-align: center;
-    font-family: Arial, sans-serif; /* Normale Schrift für alles */
+    font-family: Arial, sans-serif; /* Normale Standardschrift */
 }
 img {
     max-width: 90%;
@@ -50,31 +50,40 @@ form {
 p {
     margin-top: 60px;
 }
+.tour-text {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.2em;
+    margin: 30px 0;
+}
 .listen-section {
     margin-top: 20px;
 }
 .listen-section p {
     margin: 0;
     font-size: 1.5em;
-    font-family: 'Courier New', Courier, monospace; /* Nur hier Typewriter-Schrift */
+    font-family: 'Courier New', Courier, monospace; /* Typewriter-Schrift */
 }
 .listen-section img {
     margin-top: 5px;
-    width: 80px;
+    width: 100px; /* Größeres Icon */
     height: auto;
 }
 .contact-section {
-    margin-top: 60px; /* Mehr Abstand zwischen Icon und Contact */
+    margin-top: 60px;
 }
 .contact-section p {
     font-size: 1.5em;
-    font-family: 'Courier New', Courier, monospace; /* Nur hier Typewriter-Schrift */
+    font-family: 'Courier New', Courier, monospace; /* Typewriter-Schrift */
 }
 </style>
 </head>
 <body>
 
     <img src="Phi_Lemon_Dossier.jpg" alt="Phi Lemon Dossier">
+
+    <!-- Tour Text zwischen den Bildern -->
+    <p class="tour-text">Japan Summer Tour 2025 — Dates coming soon…</p>
+
     <img src="Phi_Lemon_Dossier_2.jpg" alt="Phi Lemon Dossier 2">
 
     <div class="listen-section">

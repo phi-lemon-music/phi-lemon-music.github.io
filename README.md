@@ -1,26 +1,4 @@
-<html lang="de">
-<head>
-<meta charset="UTF-8">
-<title>Meine GitHub Page</title>
-<style>
-body {
-    background-color: #000;
-    color: #fff;
-    text-align: center;
-    font-family: Arial, sans-serif;
-}
-img {
-    max-width: 90%;
-    height: auto;
-    margin: 10px 0;
-}
-a {
-    color: #1e90ff;
-    text-decoration: none;
-    font-size: 20px;
-}
-a:hover {
-    text-decoration: underline;
+
 }
 input, textarea {
     margin: 5px 0;

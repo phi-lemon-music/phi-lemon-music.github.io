@@ -48,16 +48,19 @@ button:hover {
 form {
     margin-top: 30px;
 }
+p {
+    margin-top: 30px; /* Mehr Abstand nach dem zweiten Bild */
+}
 </style>
 </head>
 <body>
 
-    <img src="Phi_Lemon_Dossier.jpg" alt="Phi Lemon Dossier">
     <img src="Phi_Lemon_Dossier_2.jpg" alt="Phi Lemon Dossier 2">
+    <img src="Phi_Lemon_Dossier.jpg" alt="Phi Lemon Dossier">
 
-
-    <!-- Text vor dem Icon -->
+    <!-- Mehr Abstand hier nach dem zweiten Bild -->
     <p>Listen to Phi Lemon on</p>
+
     <!-- Bandcamp-Icon -->
     <p>
         <a href="https://bandcamp.com" target="_blank">

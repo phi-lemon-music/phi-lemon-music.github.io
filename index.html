@@ -18,7 +18,7 @@ img {
 a {
     color: #1e90ff;
     text-decoration: none;
-    font-size: 24px; /* Link-Schrift größer */
+    font-size: 20px;
     display: inline-block;
     margin-top: 30px;
     margin-bottom: 30px;
@@ -29,16 +29,16 @@ a:hover {
 input, textarea {
     margin: 10px 0;
     width: 80%;
-    max-width: 500px;
+    max-width: 400px;
     background-color: #333;
     color: #fff;
     border: 1px solid #555;
-    padding: 15px; /* Mehr Innenabstand */
-    font-size: 20px; /* Größere Schrift im Formular */
+    padding: 12px;
+    font-size: 20px;
 }
 button {
     margin-top: 15px;
-    padding: 15px 30px;
+    padding: 12px 24px;
     background-color: #444;
     color: #fff;
     border: 1px solid #555;
@@ -49,22 +49,16 @@ button:hover {
     background-color: #555;
 }
 form {
-    margin-top: 60px;
+    margin-top: 50px;
 }
-p.typewriter {
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 26px; /* Schriftgröße für Listen to / Contact */
-    margin: 10px 0;
-}
-p.bandcamp {
-    margin-top: 10px;
-    margin-bottom: 40px;
-}
-p.tour {
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 26px; /* Größere Schrift für den Tour-Text */
-    margin-top: 30px;
+p {
+    margin-top: 30px; /* Mehr Abstand */
     margin-bottom: 30px;
+}
+.section-title {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 24px;
+    margin-bottom: 10px;
 }
 </style>
 </head>
@@ -72,27 +66,33 @@ p.tour {
 
     <img src="Phi_Lemon_Dossier.jpg" alt="Phi Lemon Dossier">
 
-    <!-- Text zwischen den Bildern -->
-    <p class="tour">Japan Summer Tour 2025 – Dates are coming soon...</p>
+    <!-- Neuer Text zwischen den Bildern -->
+    <p class="section-title">Japan Summer Tour 2025 – Dates are coming soon…</p>
 
     <img src="Phi_Lemon_Dossier_2.jpg" alt="Phi Lemon Dossier 2">
 
+    <!-- Abstand -->
+    <div style="height: 60px;"></div>
+
     <!-- Listen to Phi Lemon -->
-    <p class="typewriter">Listen to Phi Lemon on</p>
+    <p class="section-title">Listen to Phi Lemon on</p>
 
     <!-- Bandcamp-Icon -->
-    <p class="bandcamp">
+    <p>
         <a href="https://bandcamp.com" target="_blank">
-            <img src="BandCamp_icon.png" alt="Bandcamp" style="width:120px; height:auto;">
+            <img src="BandCamp_icon.png" alt="Bandcamp" style="width:100px; height:auto;">
         </a>
     </p>
 
-    <!-- Contact -->
-    <p class="typewriter">Contact:</p>
+    <!-- Mehr Abstand -->
+    <div style="height: 80px;"></div>
+
+    <!-- Contact Section -->
+    <p class="section-title">Contact:</p>
 
     <form action="https://formspree.io/f/xpwdwoeo" method="POST">
         <p><label>Name:<br><input type="text" name="name" required></label></p>
-        <p><label>E-Mail-Adress:<br><input type="email" name="email" required></label></p>
+        <p><label>E-Mail Address:<br><input type="email" name="email" required></label></p>
         <p><label>Message:<br><textarea name="message" rows="5" required></textarea></label></p>
         <p><button type="submit">Absenden</button></p>
     </form>

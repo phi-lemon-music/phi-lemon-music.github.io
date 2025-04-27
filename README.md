@@ -48,7 +48,7 @@ form {
     margin-top: 30px;
 }
 p {
-    margin-top: 50px; /* Mehr Abstand nach dem zweiten Bild */
+    margin-top: 60px; /* Mehr Abstand nach dem zweiten Bild */
 }
 .listen-section {
     margin-top: 20px; /* Weniger Abstand zwischen Text und Icon */
@@ -61,6 +61,9 @@ p {
     margin-top: 5px;
     width: 80px;
     height: auto;
+}
+.contact-section {
+    margin-top: 40px;
 }
 </style>
 </head>
@@ -75,6 +78,10 @@ p {
         <a href="https://bandcamp.com" target="_blank">
             <img src="BandCamp_icon.png" alt="Bandcamp">
         </a>
+    </div>
+
+    <div class="contact-section">
+        <p>Contact:</p>
     </div>
 
     <form action="https://formspree.io/f/xpwdwoeo" method="POST">

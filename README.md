@@ -55,9 +55,9 @@ form {
     <img src="Phi_Lemon_Dossier.jpg" alt="Phi Lemon Dossier">
     <img src="Phi_Lemon_Dossier_2.jpg" alt="Phi Lemon Dossier 2">
 
+
     <!-- Text vor dem Icon -->
     <p>Listen to Phi Lemon on</p>
-
     <!-- Bandcamp-Icon -->
     <p>
         <a href="https://bandcamp.com" target="_blank">

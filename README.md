@@ -9,6 +9,9 @@ body {
     text-align: center;
     font-family: Arial, sans-serif; /* Normale Standardschrift */
 }
+header {
+    display: none; /* GitHub Pages Header (Repo-Name) ausblenden */
+}
 img {
     max-width: 90%;
     height: auto;
@@ -99,7 +102,7 @@ p {
 
     <form action="https://formspree.io/f/xpwdwoeo" method="POST">
         <p><label>Name:<br><input type="text" name="name" required></label></p>
-        <p><label>E-Mail-Adress:<br><input type="email" name="email" required></label></p>
+        <p><label>E-Mail-Adresse:<br><input type="email" name="email" required></label></p>
         <p><label>Message:<br><textarea name="message" rows="5" required></textarea></label></p>
         <p><button type="submit">Absenden</button></p>
     </form>

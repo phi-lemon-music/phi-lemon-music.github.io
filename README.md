@@ -1,12 +1,11 @@
-<!DOCTYPE html>
 <html lang="de">
 <head>
 <meta charset="UTF-8">
 <title>Meine GitHub Page</title>
 <style>
 body {
-    background-color: #fff;
-    color: #000;
+    background-color: #000;
+    color: #fff;
     text-align: center;
     font-family: Arial, sans-serif;
 }
@@ -27,28 +26,28 @@ input, textarea {
     margin: 5px 0;
     width: 80%;
     max-width: 400px;
-    background-color: #eee;
-    color: #000;
-    border: 1px solid #ccc;
+    background-color: #333;
+    color: #fff;
+    border: 1px solid #555;
     padding: 10px;
 }
 button {
     margin-top: 10px;
     padding: 10px 20px;
-    background-color: #1e90ff;
+    background-color: #444;
     color: #fff;
-    border: none;
+    border: 1px solid #555;
     cursor: pointer;
 }
 button:hover {
-    background-color: #0b78d1;
+    background-color: #555;
 }
 </style>
 </head>
 <body>
 
-    <img src="Phi_Lemon_Dossier_2.jpg" alt="Phi Lemon Dossier 2">
     <img src="Phi_Lemon_Dossier.jpg" alt="Phi Lemon Dossier">
+    <img src="Phi_Lemon_Dossier_2.jpg" alt="Phi Lemon Dossier 2">
 
     <p><a href="https://bandcamp.com" target="_blank">Bandcamp Page</a></p>
 

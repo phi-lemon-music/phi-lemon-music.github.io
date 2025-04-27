@@ -18,6 +18,9 @@ a {
     color: #1e90ff;
     text-decoration: none;
     font-size: 20px;
+    display: inline-block;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 a:hover {
     text-decoration: underline;
@@ -41,6 +44,9 @@ button {
 }
 button:hover {
     background-color: #555;
+}
+form {
+    margin-top: 30px;
 }
 </style>
 </head>

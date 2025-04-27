@@ -9,9 +9,6 @@ body {
     text-align: center;
     font-family: Arial, sans-serif; /* Normale Standardschrift */
 }
-header {
-    display: none; /* GitHub Pages Header (Repo-Name) ausblenden */
-}
 img {
     max-width: 90%;
     height: auto;

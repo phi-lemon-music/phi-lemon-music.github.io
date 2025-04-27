@@ -19,8 +19,7 @@ a {
     text-decoration: none;
     font-size: 20px;
     display: inline-block;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin-top: 15px;  /* Weniger Abstand hier für die Einheit */
 }
 a:hover {
     text-decoration: underline;
@@ -49,7 +48,19 @@ form {
     margin-top: 30px;
 }
 p {
-    margin-top: 30px; /* Mehr Abstand nach dem zweiten Bild */
+    margin-top: 50px; /* Mehr Abstand nach dem zweiten Bild */
+}
+.listen-section {
+    margin-top: 20px; /* Weniger Abstand zwischen Text und Icon */
+}
+.listen-section p {
+    margin: 0;
+    font-size: 1.2em;
+}
+.listen-section img {
+    margin-top: 5px;
+    width: 80px;
+    height: auto;
 }
 </style>
 </head>
@@ -58,19 +69,17 @@ p {
     <img src="Phi_Lemon_Dossier.jpg" alt="Phi Lemon Dossier">
     <img src="Phi_Lemon_Dossier_2.jpg" alt="Phi Lemon Dossier 2">
 
-    <!-- Mehr Abstand hier nach dem zweiten Bild -->
-    <p>Listen to Phi Lemon on</p>
-
-    <!-- Bandcamp-Icon -->
-    <p>
+    <!-- Mehr Abstand nach dem zweiten Bild -->
+    <div class="listen-section">
+        <p>Listen to Phi Lemon on</p>
         <a href="https://bandcamp.com" target="_blank">
-            <img src="BandCamp_icon.png" alt="Bandcamp" style="width:80px; height:auto;">
+            <img src="BandCamp_icon.png" alt="Bandcamp">
         </a>
-    </p>
+    </div>
 
     <form action="https://formspree.io/f/xpwdwoeo" method="POST">
         <p><label>Name:<br><input type="text" name="name" required></label></p>
-        <p><label>E-Mail-Adress:<br><input type="email" name="email" required></label></p>
+        <p><label>E-Mail-Adresse:<br><input type="email" name="email" required></label></p>
         <p><label>Message:<br><textarea name="message" rows="5" required></textarea></label></p>
         <p><button type="submit">Absenden</button></p>
     </form>

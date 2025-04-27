@@ -7,7 +7,7 @@ body {
     background-color: #000;
     color: #fff;
     text-align: center;
-    font-family: Arial, sans-serif;
+    font-family: 'Courier New', Courier, monospace; /* Schreibmaschinenschrift */
     font-size: 44px; /* Schriftgröße doppelt so groß */
 }
 img {
@@ -76,7 +76,13 @@ p {
 .blink-text {
     font-size: 64px;
     color: pink;
-    animation: blink-animation 0.5s steps(5, start) infinite; /* Hier blinkt nur der Text "Japan Summer Tour 2025 -" */
+    animation: blink-animation 0.5s steps(5, start) infinite; /* Hier blinkt nur der Text "Japan Summer Tour 2025" */
+}
+
+.blink-text2 {
+    font-size: 48px;
+    color: pink;
+    /* Dieser Text "Dates are coming soon..." wird nicht mehr blinken */
 }
 </style>
 </head>
@@ -87,11 +93,17 @@ p {
     <!-- Abstand gleich nach dem ersten Bild -->
     <div style="height: 60px;"></div> <!-- Abstand angepasst -->
 
-    <!-- Blinkender pinker Text "Japan Summer Tour 2025 -" -->
-    <p class="blink-text">Japan Summer Tour 2025 –</p>
+    <!-- Blinkender pinker Text "Japan Summer Tour 2025" -->
+    <p class="blink-text">Japan Summer Tour 2025</p>
 
     <!-- Noch mehr Abstand zwischen Text und Bild -->
     <div style="height: 120px;"></div> <!-- Abstand erhöht -->
+
+    <!-- Text "Dates are coming soon..." (nicht blinkend) -->
+    <p class="blink-text2">Dates are coming soon...</p>
+
+    <!-- Noch mehr Abstand zwischen Text und Bild -->
+    <div style="height: 120px;"></div>
 
     <img src="Phi_Lemon_Dossier_2.jpg" alt="Phi Lemon Dossier 2">
 

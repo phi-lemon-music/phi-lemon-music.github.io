@@ -81,8 +81,13 @@ p {
 
 .blink-text2 {
     font-size: 64px;
-    color: #ff00ff; /* Neonpink */
-    /* Dieser Text "Dates are coming soon..." wird nicht mehr blinken */
+    color: #fff; /* Weiß für "Dates are coming soon..." */
+    animation: none; /* Kein Blinken */
+}
+
+.text-container {
+    margin-top: 0; /* Weniger Abstand zwischen Japan und Dates */
+    margin-bottom: 0; /* Weniger Abstand zwischen Japan und Dates */
 }
 </style>
 </head>
@@ -90,19 +95,19 @@ p {
 
     <img src="Phi_Lemon_Dossier.jpg" alt="Phi Lemon Dossier">
 
-    <!-- Abstand gleich nach dem ersten Bild -->
-    <div style="height: 60px;"></div> <!-- Abstand angepasst -->
+    <!-- Weniger Abstand nach dem ersten Bild -->
+    <div style="height: 60px;"></div>
 
     <!-- Blinkender neonpinker Text "Japan Summer Tour 2025" -->
     <p class="blink-text">Japan Summer Tour 2025</p>
 
-    <!-- Noch mehr Abstand zwischen Text und Bild -->
-    <div style="height: 120px;"></div> <!-- Abstand erhöht -->
+    <!-- Weniger Abstand zwischen Text und Bild -->
+    <div style="height: 30px;"></div>
 
-    <!-- Text "Dates are coming soon..." (nicht blinkend) -->
+    <!-- Text "Dates are coming soon..." (nicht blinkend, aber weiß) -->
     <p class="blink-text2">Dates are coming soon...</p>
 
-    <!-- Noch mehr Abstand zwischen Text und Bild -->
+    <!-- Mehr Abstand zwischen Text und Bild -->
     <div style="height: 120px;"></div>
 
     <img src="Phi_Lemon_Dossier_2.jpg" alt="Phi Lemon Dossier 2">
@@ -121,7 +126,7 @@ p {
     </p>
 
     <!-- Weniger Abstand zwischen Icon und Contact -->
-    <div style="height: 40px;"></div> <!-- Abstand reduziert -->
+    <div style="height: 40px;"></div>
 
     <!-- Contact Section -->
     <p class="section-title">Contact:</p>

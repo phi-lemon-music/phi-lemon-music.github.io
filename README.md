@@ -55,7 +55,7 @@ p {
 }
 .listen-section p {
     margin: 0;
-    font-size: 1.2em; /* Gleiche Größe wie "Contact:" */
+    font-size: 1.5em; /* Gleiche Größe wie "Contact:" */
 }
 .listen-section img {
     margin-top: 5px;
@@ -63,7 +63,10 @@ p {
     height: auto;
 }
 .contact-section {
-    margin-top: 50px; /* Mehr Abstand zwischen Bandcamp-Icon und "Contact:" */
+    margin-top: 30px; /* Weniger Abstand zwischen Bandcamp-Icon und "Contact:" */
+}
+.contact-section p {
+    font-size: 1.5em; /* Gleiche Schriftgröße wie "Listen to Phi Lemon on" */
 }
 </style>
 </head>

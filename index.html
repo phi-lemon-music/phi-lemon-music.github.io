@@ -60,20 +60,34 @@ p {
     font-size: 64px;
     margin-bottom: 20px;
 }
+
+/* Stil für blinkenden hellrosa Text */
+.blink {
+    color: #f4a9c0;
+    animation: blink-animation 1.5s steps(5, start) infinite;
+}
+
+@keyframes blink-animation {
+    50% {
+        opacity: 0;
+    }
+}
+
 .blink-text {
     font-size: 64px;
     color: #f4a9c0;
     animation: blink-animation 1.5s steps(5, start) infinite;
 }
+
 .blink-text2 {
     font-size: 64px;
     color: #fff;
     animation: none;
 }
-@keyframes blink-animation {
-    50% {
-        opacity: 0;
-    }
+
+.text-container {
+    margin-top: 0;
+    margin-bottom: 0;
 }
 </style>
 </head>
@@ -103,7 +117,12 @@ p {
         </a>
     </p>
 
-    <div style="height: 40px;"></div>
+    <div style="height: 60px;"></div>
+
+    <!-- Hier kommt dein neues Bild -->
+    <img src="1745793875567_filtered 2.JPG" alt="Zusätzliches Bild" style="max-width:90%; height:auto; margin-top:40px;">
+
+    <div style="height: 100px;"></div>
 
     <p class="section-title">Contact:</p>
 
@@ -113,11 +132,6 @@ p {
         <p><label>Message:<br><textarea name="message" rows="5" required></textarea></label></p>
         <p><button type="submit">Absenden</button></p>
     </form>
-
-    <!-- Hier dein zusätzliches Bild ganz unten -->
-    <div style="margin-top: 100px;">
-        <img src="1745793875567_filtered 2.JPG" alt="Zusätzliches Bild">
-    </div>
 
 </body>
 </html>

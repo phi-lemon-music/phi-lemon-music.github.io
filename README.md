@@ -7,7 +7,7 @@ body {
     background-color: #000;
     color: #fff;
     text-align: center;
-    font-family: Arial, sans-serif;
+    font-family: 'Courier New', Courier, monospace; /* Typewriter-Schrift */
 }
 img {
     max-width: 90%;
@@ -19,7 +19,7 @@ a {
     text-decoration: none;
     font-size: 20px;
     display: inline-block;
-    margin-top: 15px;  /* Weniger Abstand hier für die Einheit */
+    margin-top: 15px;
 }
 a:hover {
     text-decoration: underline;
@@ -32,6 +32,7 @@ input, textarea {
     color: #fff;
     border: 1px solid #555;
     padding: 10px;
+    font-family: 'Courier New', Courier, monospace; /* Eingabefelder gleiche Schrift */
 }
 button {
     margin-top: 10px;
@@ -40,6 +41,7 @@ button {
     color: #fff;
     border: 1px solid #555;
     cursor: pointer;
+    font-family: 'Courier New', Courier, monospace;
 }
 button:hover {
     background-color: #555;
@@ -48,14 +50,14 @@ form {
     margin-top: 30px;
 }
 p {
-    margin-top: 60px; /* Mehr Abstand nach dem zweiten Bild */
+    margin-top: 60px;
 }
 .listen-section {
-    margin-top: 20px; /* Weniger Abstand zwischen Text und Icon */
+    margin-top: 20px;
 }
 .listen-section p {
     margin: 0;
-    font-size: 1.5em; /* Gleiche Größe wie "Contact:" */
+    font-size: 1.5em;
 }
 .listen-section img {
     margin-top: 5px;
@@ -63,10 +65,10 @@ p {
     height: auto;
 }
 .contact-section {
-    margin-top: 30px; /* Weniger Abstand zwischen Bandcamp-Icon und "Contact:" */
+    margin-top: 30px;
 }
 .contact-section p {
-    font-size: 1.5em; /* Gleiche Schriftgröße wie "Listen to Phi Lemon on" */
+    font-size: 1.5em;
 }
 </style>
 </head>
@@ -75,7 +77,6 @@ p {
     <img src="Phi_Lemon_Dossier.jpg" alt="Phi Lemon Dossier">
     <img src="Phi_Lemon_Dossier_2.jpg" alt="Phi Lemon Dossier 2">
 
-    <!-- Mehr Abstand nach dem zweiten Bild -->
     <div class="listen-section">
         <p>Listen to Phi Lemon on</p>
         <a href="https://bandcamp.com" target="_blank">

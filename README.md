@@ -1,11 +1,12 @@
+<!DOCTYPE html>
 <html lang="de">
 <head>
 <meta charset="UTF-8">
 <title>Meine GitHub Page</title>
 <style>
 body {
-    background-color: #000;
-    color: #fff;
+    background-color: #fff;
+    color: #000;
     text-align: center;
     font-family: Arial, sans-serif;
 }
@@ -26,21 +27,21 @@ input, textarea {
     margin: 5px 0;
     width: 80%;
     max-width: 400px;
-    background-color: #333;
-    color: #fff;
-    border: 1px solid #555;
+    background-color: #eee;
+    color: #000;
+    border: 1px solid #ccc;
     padding: 10px;
 }
 button {
     margin-top: 10px;
     padding: 10px 20px;
-    background-color: #444;
+    background-color: #1e90ff;
     color: #fff;
-    border: 1px solid #555;
+    border: none;
     cursor: pointer;
 }
 button:hover {
-    background-color: #555;
+    background-color: #0b78d1;
 }
 </style>
 </head>

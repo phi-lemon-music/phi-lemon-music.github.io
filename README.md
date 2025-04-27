@@ -7,7 +7,7 @@ body {
     background-color: #000;
     color: #fff;
     text-align: center;
-    font-family: 'Courier New', Courier, monospace; /* Typewriter-Schrift */
+    font-family: Arial, sans-serif; /* Normale Schrift für alles */
 }
 img {
     max-width: 90%;
@@ -32,7 +32,6 @@ input, textarea {
     color: #fff;
     border: 1px solid #555;
     padding: 10px;
-    font-family: 'Courier New', Courier, monospace; /* Eingabefelder gleiche Schrift */
 }
 button {
     margin-top: 10px;
@@ -41,7 +40,6 @@ button {
     color: #fff;
     border: 1px solid #555;
     cursor: pointer;
-    font-family: 'Courier New', Courier, monospace;
 }
 button:hover {
     background-color: #555;
@@ -58,6 +56,7 @@ p {
 .listen-section p {
     margin: 0;
     font-size: 1.5em;
+    font-family: 'Courier New', Courier, monospace; /* Nur hier Typewriter-Schrift */
 }
 .listen-section img {
     margin-top: 5px;
@@ -65,10 +64,11 @@ p {
     height: auto;
 }
 .contact-section {
-    margin-top: 30px;
+    margin-top: 60px; /* Mehr Abstand zwischen Icon und Contact */
 }
 .contact-section p {
     font-size: 1.5em;
+    font-family: 'Courier New', Courier, monospace; /* Nur hier Typewriter-Schrift */
 }
 </style>
 </head>

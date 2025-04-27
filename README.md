@@ -55,7 +55,12 @@ form {
     <img src="Phi_Lemon_Dossier.jpg" alt="Phi Lemon Dossier">
     <img src="Phi_Lemon_Dossier_2.jpg" alt="Phi Lemon Dossier 2">
 
-    <p><a href="https://bandcamp.com" target="_blank">Bandcamp Page</a></p>
+    <!-- Bandcamp-Icon -->
+    <p>
+        <a href="https://bandcamp.com" target="_blank">
+            <img src="BandCamp_icon.png" alt="Bandcamp" style="width:80px; height:auto;">
+        </a>
+    </p>
 
     <form action="https://formspree.io/f/xpwdwoeo" method="POST">
         <p><label>Name:<br><input type="text" name="name" required></label></p>

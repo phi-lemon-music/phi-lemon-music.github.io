@@ -72,6 +72,12 @@ p {
         opacity: 0;
     }
 }
+
+.blink-text {
+    font-size: 64px;
+    color: pink;
+    animation: blink-animation 0.5s steps(5, start) infinite; /* Hier blinkt der gesamte Text */
+}
 </style>
 </head>
 <body>
@@ -81,8 +87,8 @@ p {
     <!-- Abstand gleich nach dem ersten Bild -->
     <div style="height: 60px;"></div> <!-- Abstand angepasst -->
 
-    <!-- Blinkender pinker Text "Japan" -->
-    <p class="section-title"><span class="blink">Japan</span> Summer Tour 2025 – Dates are coming soon…</p>
+    <!-- Blinkender pinker Text "Japan" mit Bindestrich und zusätzlichem Text -->
+    <p class="blink-text">Japan Summer Tour 2025 – Dates are coming soon…</p>
 
     <!-- Noch mehr Abstand zwischen Text und Bild -->
     <div style="height: 120px;"></div> <!-- Abstand erhöht -->

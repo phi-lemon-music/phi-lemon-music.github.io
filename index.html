@@ -1,173 +1,180 @@
 <html lang="de">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Meine GitHub Page</title>
-  <style>
+<meta charset="UTF-8">
+<title>Phi Lemon</title>
+<style>
+body {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 44px;
+    margin: 0;
+    padding: 0;
+}
+img {
+    max-width: 90%;
+    height: auto;
+    margin: 10px 0;
+}
+a {
+    color: #1e90ff;
+    text-decoration: none;
+    font-size: 40px;
+    display: inline-block;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+a:hover {
+    text-decoration: underline;
+}
+input, textarea {
+    margin: 20px 0;
+    width: 80%;
+    max-width: 600px;
+    background-color: #333;
+    color: #fff;
+    border: 1px solid #555;
+    padding: 24px;
+    font-size: 36px;
+}
+button {
+    margin-top: 30px;
+    padding: 24px 48px;
+    background-color: #444;
+    color: #fff;
+    border: 1px solid #555;
+    cursor: pointer;
+    font-size: 36px;
+}
+button:hover {
+    background-color: #555;
+}
+form {
+    margin-top: 100px;
+}
+p {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.section-title {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 64px;
+    margin-bottom: 20px;
+}
+.pressetext {
+    max-width: 900px;
+    margin: 0 auto;
+    font-size: 44px;
+    padding: 0 40px;
+}
+
+/* Stil für blinkenden hellrosa Text */
+.blink-text {
+    font-size: 64px;
+    color: #f4a9c0;
+    animation: blink-animation 1.5s steps(5, start) infinite;
+}
+.blink-text2 {
+    font-size: 64px;
+    color: #fff;
+    animation: none;
+}
+@keyframes blink-animation {
+    50% {
+        opacity: 0;
+    }
+}
+
+/* Desktop-Anpassung */
+@media (min-width: 1024px) {
     body {
-      background-color: #000;
-      color: #fff;
-      text-align: center;
-      font-family: 'Courier New', Courier, monospace;
-      font-size: 44px;
-    }
-    img {
-      max-width: 90%;
-      height: auto;
-      margin: 10px 0;
-    }
-    a {
-      color: #1e90ff;
-      text-decoration: none;
-      font-size: 40px;
-      display: inline-block;
-      margin: 60px 0;
-    }
-    a:hover {
-      text-decoration: underline;
-    }
-    input, textarea {
-      margin: 20px 0;
-      width: 80%;
-      max-width: 600px;
-      background-color: #333;
-      color: #fff;
-      border: 1px solid #555;
-      padding: 24px;
-      font-size: 36px;
-    }
-    button {
-      margin-top: 30px;
-      padding: 24px 48px;
-      background-color: #444;
-      color: #fff;
-      border: 1px solid #555;
-      cursor: pointer;
-      font-size: 36px;
-    }
-    button:hover {
-      background-color: #555;
-    }
-    form {
-      margin-top: 100px;
-    }
-    p {
-      margin: 60px 0;
+        font-size: 18px;
     }
     .section-title {
-      font-size: 64px;
-      margin-bottom: 20px;
+        font-size: 28px;
     }
-    .blink-text {
-      font-size: 64px;
-      color: #f4a9c0;
-      animation: blink-animation 1.5s steps(5, start) infinite;
-    }
+    .blink-text,
     .blink-text2 {
-      font-size: 64px;
-      color: #fff;
-    }
-    @keyframes blink-animation {
-      50% { opacity: 0; }
+        font-size: 28px;
     }
     .pressetext {
-      max-width: 800px;
-      margin: 0 auto;
-      text-align: left;
-      font-size: 40px;
-      line-height: 1.4;
-    }
-
-    /* stark verkleinerte Desktop-Größen */
-    @media (min-width: 1024px) {
-      body {
         font-size: 18px;
-      }
-      .section-title {
-        font-size: 28px;
-      }
-      .blink-text,
-      .blink-text2 {
-        font-size: 28px;
-      }
-      p {
+    }
+    p {
         margin: 20px 0;
-      }
-      input, textarea {
+    }
+    input, textarea {
         font-size: 14px;
         padding: 8px;
         max-width: 400px;
-      }
-      button {
+    }
+    button {
         font-size: 14px;
         padding: 8px 16px;
-      }
-      a {
+    }
+    a {
         font-size: 18px;
         margin: 30px 0;
-      }
-      .pressetext {
-        font-size: 16px;
-      }
     }
-  </style>
+    img {
+        max-width: 50%;
+    }
+}
+</style>
 </head>
 <body>
 
-  <!-- New EP Announcement -->
-  <p class="section-title">New EP out now!!!</p>
+    <p class="section-title">New EP out now!!!</p>
 
-  <!-- Cover Image clickable to Bandcamp -->
-  <p>
     <a href="https://bandcamp.com" target="_blank">
-      <img src="Cover_Phi-Lemon_The_Japan_Demos.jpg" alt="Cover Phi Lemon The Japan Demos">
+        <img src="Cover_Phi-Lemon_The_Japan_Demos.jpg" alt="EP Cover">
     </a>
-  </p>
 
-  <!-- Listen and Download prompt -->
-  <p class="section-title">Listen and free download on</p>
+    <p class="section-title">Listen and free download on</p>
 
-  <!-- Bandcamp Icon clickable -->
-  <p>
     <a href="https://bandcamp.com" target="_blank">
-      <img src="BandCamp_icon.png" alt="Bandcamp" style="width:400px; height:auto;">
+        <img src="BandCamp_icon.png" alt="Bandcamp Icon" style="width:400px; height:auto;">
     </a>
-  </p>
 
-  <!-- Second image -->
-  <p>
+    <div style="height: 60px;"></div>
+
     <img src="Phi_Lemon_quadratisch.jpg" alt="Phi Lemon quadratisch">
-  </p>
 
-  <!-- Pressetext -->
-  <div class="pressetext">
-    <p>Phi Lemon is the creative persona of Swiss musician David Zurbuchen, known for his dynamic roles as drummer, guitarist and singer in Switzerland’s jam band scene. After years of ripping it up with bands like Ginger, Marblewood, Utopia in Space, We Believe In Hyperspace, AoxoToxoA, Wua Wua, and others, he writes and records his own songs under the name Phi Lemon. Influenced by the raw energy of 60s garage rock an EP of groovy psychedelic songs is born.</p>
-    <p>Together with longtime friend and collaborator Andreas Rösch, Phi Lemon will take those vibes on an underground club tour in Japan this summer. Back in Switzerland, there will be more shows to come.</p>
-  </div>
+    <div style="height: 60px;"></div>
 
-  <!-- Japan Tour Blink -->
-  <div style="height:60px;"></div>
-  <p class="blink-text">Japan Summer Tour 2025</p>
-  <div style="height:5px;"></div>
-  <p class="blink-text2">Dates are coming soon</p>
-  <div style="height:20px;"></div>
+    <div class="pressetext">
+        <p>
+        Phi Lemon is the creative persona of Swiss musician David Zurbuchen, known for his dynamic roles as drummer, guitarist and singer in Switzerland’s jam band scene. After years of ripping it up with bands like Ginger, Marblewood, Utopia in Space, We Believe In Hyperspace, AoxoToxoA, Wua Wua, and others, he writes and records his own songs under the name Phi Lemon.
+        </p>
+        <p>
+        Influenced by the raw energy of 60s garage rock an EP of groovy psychedelic songs is born.
+        </p>
+        <p>
+        Together with longtime friend and collaborator Andreas Rösch, Phi Lemon will take those vibes on an underground club tour in Japan this summer. Back in Switzerland, there will be more shows to come.
+        </p>
+    </div>
 
-  <!-- Second Dossier Image -->
-  <img src="Phi_Lemon_Dossier_2.jpg" alt="Phi Lemon Dossier 2">
-  <div style="height:120px;"></div>
+    <div style="height: 120px;"></div>
 
-  <!-- Contact Section -->
-  <p class="section-title">Contact:</p>
-  <form action="https://formspree.io/f/xpwdwoeo" method="POST">
-    <p><label>Name:<br><input type="text" name="name" required></label></p>
-    <p><label>E-Mail Address:<br><input type="email" name="email" required></label></p>
-    <p><label>Message:<br><textarea name="message" rows="5" required></textarea></label></p>
-    <p><button type="submit">Absenden</button></p>
-  </form>
+    <p class="blink-text">Japan Summer Tour 2025</p>
+    <div style="height: 5px;"></div>
+    <p class="blink-text2">Dates are coming soon</p>
 
-  <!-- Ganz unten eingefügtes Bild -->
-  <div style="height:80px;"></div>
-  <img src="1745793875567_filtered 2.JPG" alt="Zusätzliches Bild" style="max-width:90%; height:auto;">
+    <div style="height: 100px;"></div>
+
+    <p class="section-title">Contact:</p>
+
+    <form action="https://formspree.io/f/xpwdwoeo" method="POST">
+        <p><label>Name:<br><input type="text" name="name" required></label></p>
+        <p><label>E-Mail Address:<br><input type="email" name="email" required></label></p>
+        <p><label>Message:<br><textarea name="message" rows="5" required></textarea></label></p>
+        <p><button type="submit">Absenden</button></p>
+    </form>
+
+    <div style="height: 100px;"></div>
+
+    <img src="1745793875567_filtered 2.JPG" alt="Zusätzliches Bild">
 
 </body>
 </html>

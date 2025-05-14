@@ -21,8 +21,7 @@
       text-decoration: none;
       font-size: 40px;
       display: inline-block;
-      margin-top: 60px;
-      margin-bottom: 60px;
+      margin: 60px 0;
     }
     a:hover {
       text-decoration: underline;
@@ -53,16 +52,12 @@
       margin-top: 100px;
     }
     p {
-      margin-top: 60px;
-      margin-bottom: 60px;
+      margin: 60px 0;
     }
     .section-title {
-      font-family: 'Courier New', Courier, monospace;
       font-size: 64px;
       margin-bottom: 20px;
     }
-
-    /* blinkender hellrosa Text */
     .blink-text {
       font-size: 64px;
       color: #f4a9c0;
@@ -71,13 +66,10 @@
     .blink-text2 {
       font-size: 64px;
       color: #fff;
-      animation: none;
     }
     @keyframes blink-animation {
       50% { opacity: 0; }
     }
-
-    /* Pressetext-Größen */
     .pressetext {
       max-width: 800px;
       margin: 0 auto;
@@ -86,38 +78,36 @@
       line-height: 1.4;
     }
 
-    /* Responsive Desktop-Anpassungen */
+    /* stark verkleinerte Desktop-Größen */
     @media (min-width: 1024px) {
       body {
-        font-size: 28px;
+        font-size: 18px;
       }
       .section-title {
-        font-size: 48px;
+        font-size: 28px;
       }
       .blink-text,
       .blink-text2 {
-        font-size: 48px;
+        font-size: 28px;
       }
       p {
-        margin-top: 30px;
-        margin-bottom: 30px;
+        margin: 20px 0;
       }
       input, textarea {
-        font-size: 20px;
-        padding: 12px;
-        max-width: 500px;
+        font-size: 14px;
+        padding: 8px;
+        max-width: 400px;
       }
       button {
-        font-size: 20px;
-        padding: 12px 24px;
+        font-size: 14px;
+        padding: 8px 16px;
       }
       a {
-        font-size: 24px;
-        margin-top: 30px;
-        margin-bottom: 30px;
+        font-size: 18px;
+        margin: 30px 0;
       }
       .pressetext {
-        font-size: 20px;
+        font-size: 16px;
       }
     }
   </style>

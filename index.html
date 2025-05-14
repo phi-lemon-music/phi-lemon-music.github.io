@@ -1,3 +1,4 @@
+
 <html lang="de">
 <head>
 <meta charset="UTF-8">
@@ -60,29 +61,18 @@ p {
     font-size: 64px;
     margin-bottom: 20px;
 }
-
-/* Stil für blinkenden hellrosa Text */
-.blink {
-    color: #f4a9c0;
-    animation: blink-animation 1.5s steps(5, start) infinite;
-}
-
-@keyframes blink-animation {
-    50% {
-        opacity: 0;
-    }
-}
-
+/* blinkender hellrosa Text */
 .blink-text {
     font-size: 64px;
     color: #f4a9c0;
     animation: blink-animation 1.5s steps(5, start) infinite;
 }
-
 .blink-text2 {
     font-size: 64px;
     color: #fff;
-    animation: none;
+}
+@keyframes blink-animation {
+    50% { opacity: 0; }
 }
 </style>
 </head>
@@ -91,7 +81,7 @@ p {
     <!-- New EP Announcement -->
     <p class="section-title">New EP out now!!!</p>
 
-    <!-- Cover Image clickable to Bandcamp -->
+    <!-- Cover Image -->
     <p>
         <a href="https://bandcamp.com" target="_blank">
             <img src="Cover_Phi-Lemon_The_Japan_Demos.jpg" alt="Cover Phi Lemon The Japan Demos">
@@ -101,7 +91,7 @@ p {
     <!-- Listen and Download prompt -->
     <p class="section-title">Listen and free download on</p>
 
-    <!-- Bandcamp Icon clickable -->
+    <!-- Bandcamp Icon -->
     <p>
         <a href="https://bandcamp.com" target="_blank">
             <img src="BandCamp_icon.png" alt="Bandcamp" style="width:400px; height:auto;">
@@ -109,14 +99,12 @@ p {
     </p>
 
     <!-- Second image -->
-    <p>
-        <img src="Phi_Lemon_quadratisch.jpg" alt="Phi Lemon quadratisch">
-    </p>
+    <p><img src="Phi_Lemon_quadratisch.jpg" alt="Phi Lemon quadratisch"></p>
 
-    <!-- Pressetext (etwas größer) -->
-    <div style="max-width:800px; margin:0 auto; text-align:left; font-size:32px; line-height:1.4;">
-        <p>Phi Lemon is the creative persona of Swiss musician David Zurbuchen, known for his dynamic roles as drummer, guitarist and singer in Switzerland’s jam band scene. After years of ripping it up with bands like Ginger, Marblewood, Utopia in Space, We Believe In Hyperspace, AoxoToxoA, Wua Wua, and others, he writes and records his own songs under the name Phi Lemon. Influenced by the raw energy of 60s garage rock an EP of groovy psychedelic songs is born.</p>
-        <p>Together with longtime friend and collaborator Andreas Rösch, Phi Lemon will take those vibes on an underground club tour in Japan this summer. Back in Switzerland, there will be more shows to come.</p>
+    <!-- Pressetext (größer: 40px) -->
+    <div style="max-width:800px; margin:0 auto; text-align:left; font-size:40px; line-height:1.4;">
+      <p>Phi Lemon is the creative persona of Swiss musician David Zurbuchen, known for his dynamic roles as drummer, guitarist and singer in Switzerland’s jam band scene. After years of ripping it up with bands like Ginger, Marblewood, Utopia in Space, We Believe In Hyperspace, AoxoToxoA, Wua Wua, and others, he writes and records his own songs under the name Phi Lemon. Influenced by the raw energy of 60s garage rock an EP of groovy psychedelic songs is born.</p>
+      <p>Together with longtime friend and collaborator Andreas Rösch, Phi Lemon will take those vibes on an underground club tour in Japan this summer. Back in Switzerland, there will be more shows to come.</p>
     </div>
 
     <!-- Japan Tour Blink -->
@@ -126,14 +114,12 @@ p {
     <p class="blink-text2">Dates are coming soon</p>
     <div style="height:20px;"></div>
 
-    <!-- Second Dossier Image -->
+    <!-- Dossier Image -->
     <img src="Phi_Lemon_Dossier_2.jpg" alt="Phi Lemon Dossier 2">
-
     <div style="height:120px;"></div>
 
     <!-- Contact Section -->
     <p class="section-title">Contact:</p>
-
     <form action="https://formspree.io/f/xpwdwoeo" method="POST">
         <p><label>Name:<br><input type="text" name="name" required></label></p>
         <p><label>E-Mail Address:<br><input type="email" name="email" required></label></p>

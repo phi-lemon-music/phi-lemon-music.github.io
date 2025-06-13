@@ -63,7 +63,7 @@
       justify-content: space-between;
       gap: 10px;
       margin: 20px auto;
-      max-width: 320px; /* 2×150px + 10px Gap */
+      max-width: 480px; /* Desktop: 2×225px + gap */
     }
     .listen-icons a {
       margin: 0;
@@ -90,18 +90,14 @@
     button:hover { background: #555; }
     form { margin-top: 40px; }
 
-    /* Desktop: zwei Icons pro Reihe, größer und dichter */
+    /* Desktop: Icons 1.5× groß */
     @media (min-width: 1024px) {
-      .listen-icons {
-        max-width: 480px; /* 2×225px + 10px Gap */
-        gap: 10px;
-      }
       .listen-icons img {
-        width: 225px; /* 1.5× der Basisgröße */
+        width: 225px; /* 1.5 × 150px */
       }
     }
 
-    /* Mobile */
+    /* Mobile: zwei Icons pro Reihe */
     @media (max-width: 1023px) {
       body { font-size: 20px; }
       .section-title { font-size: 36px; }
@@ -111,11 +107,15 @@
       p { margin: 40px 0; }
       .listen-icons {
         max-width: none;
-        gap: 5px;
+        gap: 10px;
+        justify-content: space-between;
+      }
+      .listen-icons a {
+        flex: 0 0 48%;  /* zwei pro Zeile */
       }
       .listen-icons img {
         width: 120px;
-        max-width: 60vw;
+        max-width: none;
       }
       input, textarea {
         font-size: 18px;

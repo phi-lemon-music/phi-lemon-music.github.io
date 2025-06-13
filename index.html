@@ -61,12 +61,12 @@
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
-      gap: 10px;
+      gap: 5px;           /* engerer horizontaler Abstand */
       margin: 20px 0;
     }
     .listen-icons a {
       display: block;
-      margin: 10px;
+      margin: 5px;        /* engerer Innenabstand */
     }
     .listen-icons img {
       width: 150px;
@@ -93,7 +93,7 @@
     /* Desktop: zwei Icons pro Reihe, enger beieinander */
     @media (min-width: 1024px) {
       .listen-icons a {
-        flex: 0 0 40%;
+        flex: 0 0 48%;   /* fast halbbreit, damit zwei Spalten dicht beieinander */
       }
     }
 

@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Phi Lemon</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Open Graph / WhatsApp Preview -->
+  <meta property="og:type"        content="website">
+  <meta property="og:url"         content="https://phi-lemon.com/">
+  <meta property="og:title"       content="Phi Lemon – New EP Out Now">
+  <meta property="og:description" content="Listen to the EP ‘The Japan Demos’ by Phi Lemon.">
+  <meta property="og:image"       content="https://phi-lemon.com/og-cover-v2.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+
+  <!-- Twitter Card Preview -->
+  <meta name="twitter:card"        content="summary_large_image">
+  <meta name="twitter:url"         content="https://phi-lemon.com/">
+  <meta name="twitter:title"       content="Phi Lemon – New EP Out Now">
+  <meta name="twitter:description" content="Listen to the EP ‘The Japan Demos’ by Phi Lemon.">
+  <meta name="twitter:image"       content="https://phi-lemon.com/og-cover-v2.jpg">
+
+  <style>
+    body {
+      background: #000;
+      color: #fff;
+      text-align: center;
+      font-family: 'Courier New', Courier, monospace;
+      font-size: 18px;
+      margin: 0;
+      padding: 0;
+    }
+    img {
+      max-width: 40%;
+      height: auto;
+      margin: 20px 0;
+    }
+    a { text-decoration: none; color: #1e90ff; }
+    a:hover { text-decoration: underline; }
+    p { margin: 20px 0; }
+
+    .section-title { font-size: 28px; margin-bottom: 20px; }
+    .pressetext {
+      max-width: 900px;
+      margin: 0 auto;
+      font-size: 18px;
+      line-height: 1.5;
+      padding: 0 20px;
+    }
+    .blink-text {
+      font-size: 28px;
+      color: #f4a9c0;
+      animation: blink-animation 1.5s steps(5,start) infinite;
+    }
+    .blink-text2 { font-size: 28px; color: #fff; }
+    @keyframes blink-animation { 50% { opacity: 0; } }
+
+    /* Listen-Icons als Flex-Grid */
+    .listen-icons {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      gap: 10px;
+      margin: 20px auto;
+      max-width: 480px;
+    }
+    .listen-icons a { margin: 0; }
+    .listen-icons img { width: 150px; height: auto; }
+
+    input, textarea {
+      width: 80%; max-width: 400px;
+      background: #333; color: #fff;
+      border: 1px solid #555;
+      font-size: 14px; padding: 8px;
+      margin: 20px 0;
+    }
+    button {
+      font-size: 14px; padding: 8px 16px;
+      margin-top: 20px;
+      background: #444; color: #fff;
+      border: 1px solid #555;
+      cursor: pointer;
+    }
+    button:hover { background: #555; }
+    form { margin-top: 40px; }
+
+    /* Desktop: Icons 1.5× groß */
+    @media (min-width: 1024px) {
+      .listen-icons img { width: 225px; }
+    }
+
+    /* Mobile: zwei Icons pro Reihe, Text etwas kleiner */
+    @media (max-width: 1023px) {
+      body { font-size: 16px; }
+      .section-title { font-size: 32px; }
+      /* pressetext und blink-text/-text2 beibehalten wie bisher */
+      .listen-icons {
+        max-width: none;
+        gap: 10px;
+        justify-content: space-between;
+      }
+      .listen-icons a { flex: 0 0 48%; }
+      .listen-icons img {
+        width: 120px;
+        max-width: none;
+      }
+      img { max-width: 90%; margin: 15px 0; }
+      p { margin: 40px 0; }
+      input, textarea {
+        font-size: 18px; padding: 12px; max-width: 500px; margin: 15px 0;
+      }
+      button {
+        font-size: 18px; padding: 12px 24px; margin-top: 30px;
+      }
+      form { margin-top: 60px; }
+    }
+  </style>
+</head>
+<body>
+
+  <p class="section-title">New EP out now!!!</p>
+
+  <a href="https://phi-lemon.bandcamp.com/album/the-japan-demos" target="_blank">
+    <img src="Cover_Phi-Lemon_The_Japan_Demos.jpg" alt="EP Cover">
+  </a>
+
+  <p class="section-title">Listen on</p>
+  <div class="listen-icons">
+    <a href="https://phi-lemon.bandcamp.com/album/the-japan-demos" target="_blank">
+      <img src="BandCamp_icon.png" alt="Bandcamp Icon">
+    </a>
+    <a href="https://open.spotify.com/artist/0tCPruIfDDJshWQXiA0taS" target="_blank">
+      <img src="Spotify_icon.PNG" alt="Spotify Icon">
+    </a>
+    <a href="https://music.apple.com/de/artist/phi-lemon/1817197990" target="_blank">
+      <img src="Applemusic_icon.PNG" alt="Apple Music Icon">
+    </a>
+    <a href="https://tidal.com/browse/artist/61163458?u" target="_blank">
+      <img src="Tidal_icon.JPG" alt="Tidal Icon">
+    </a>
+    <a href="https://music.youtube.com/playlist?list=OLAK5uy_kJGbUQxLlkPsUFyq5n8Ih7Zk_atZC70PQ&feature=shared" target="_blank">
+      <img src="Youtubemusic_icon.jpg" alt="YouTube Music Icon">
+    </a>
+    <a href="https://music.amazon.de/albums/B0FB53X8WK?marketplaceId=A1PA6795UKMFR9&musicTerritory=DE&ref=dm_sh_fdJLghbvhVvRMIbYvGkjtEQxo" target="_blank">
+      <img src="Amazonmusic_icon.PNG" alt="Amazon Music Icon">
+    </a>
+  </div>
+
+  <img src="Phi_Lemon_quadratisch.jpg" alt="Phi Lemon">
+
+  <div class="pressetext">
+    <p>Phi Lemon is the creative persona of Swiss musician David Zurbuchen, known for his dynamic roles as drummer, guitarist and singer in Switzerland’s jam band scene. After years of ripping it up with bands like Ginger, Marblewood, Utopia in Space, We Believe In Hyperspace, AoxoToxoA, Wua Wua, and others, he writes and records his own songs under the name Phi Lemon.</p>
+    <p>Influenced by the raw energy of 60s garage rock an EP of groovy psychedelic songs is born.</p>
+    <p>Together with longtime friend and collaborator Andreas Rösch, Phi Lemon will take those vibes on an underground club tour in Japan this summer. Back in Switzerland, there will be more shows to come.</p>
+  </div>
+
+  <p class="blink-text">Japan Summer Tour 2025</p>
+  <img src="Phi_Lemon_japanisch.JPG" alt="Phi Lemon Japanisch">
+  <p class="blink-text2">Dates are coming soon</p>
+
+  <img src="Phi_Lemon_Dossier_2.jpg" alt="Phi Lemon Dossier 2">
+
+  <p class="section-title">Contact:</p>
+  <form action="https://formspree.io/f/xpwdwoeo" method="POST">
+    <input type="text" name="name" placeholder="Name" required><br>
+    <input type="email" name="email" placeholder="E-Mail Address" required><br>
+    <textarea name="message" rows="5" placeholder="Message" required></textarea><br>
+    <button type="submit">Absenden</button>
+  </form>
+
+  <img src="1745793875567_filtered 2.JPG" alt="Additional Image">
+
+</body>
+</html>

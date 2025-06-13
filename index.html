@@ -63,15 +63,10 @@
       justify-content: space-between;
       gap: 10px;
       margin: 20px auto;
-      max-width: 480px; /* Desktop: 2×225px + gap */
+      max-width: 480px;
     }
-    .listen-icons a {
-      margin: 0;
-    }
-    .listen-icons img {
-      width: 150px; /* Basisgröße */
-      height: auto;
-    }
+    .listen-icons a { margin: 0; }
+    .listen-icons img { width: 150px; height: auto; }
 
     input, textarea {
       width: 80%; max-width: 400px;
@@ -92,41 +87,31 @@
 
     /* Desktop: Icons 1.5× groß */
     @media (min-width: 1024px) {
-      .listen-icons img {
-        width: 225px; /* 1.5 × 150px */
-      }
+      .listen-icons img { width: 225px; }
     }
 
-    /* Mobile: zwei Icons pro Reihe */
+    /* Mobile: zwei Icons pro Reihe, Text etwas kleiner */
     @media (max-width: 1023px) {
-      body { font-size: 20px; }
-      .section-title { font-size: 36px; }
-      .pressetext { font-size: 20px; padding: 0 30px; }
-      .blink-text, .blink-text2 { font-size: 36px; }
-      img { max-width: 90%; margin: 15px 0; }
-      p { margin: 40px 0; }
+      body { font-size: 16px; }
+      .section-title { font-size: 32px; }
+      /* pressetext und blink-text/-text2 beibehalten wie bisher */
       .listen-icons {
         max-width: none;
         gap: 10px;
         justify-content: space-between;
       }
-      .listen-icons a {
-        flex: 0 0 48%;  /* zwei pro Zeile */
-      }
+      .listen-icons a { flex: 0 0 48%; }
       .listen-icons img {
         width: 120px;
         max-width: none;
       }
+      img { max-width: 90%; margin: 15px 0; }
+      p { margin: 40px 0; }
       input, textarea {
-        font-size: 18px;
-        padding: 12px;
-        max-width: 500px;
-        margin: 15px 0;
+        font-size: 18px; padding: 12px; max-width: 500px; margin: 15px 0;
       }
       button {
-        font-size: 18px;
-        padding: 12px 24px;
-        margin-top: 30px;
+        font-size: 18px; padding: 12px 24px; margin-top: 30px;
       }
       form { margin-top: 60px; }
     }
@@ -142,21 +127,18 @@
 
   <p class="section-title">Listen on</p>
   <div class="listen-icons">
-    <!-- Zeile 1 -->
     <a href="https://phi-lemon.bandcamp.com/album/the-japan-demos" target="_blank">
       <img src="BandCamp_icon.png" alt="Bandcamp Icon">
     </a>
     <a href="https://open.spotify.com/artist/0tCPruIfDDJshWQXiA0taS" target="_blank">
       <img src="Spotify_icon.PNG" alt="Spotify Icon">
     </a>
-    <!-- Zeile 2 -->
     <a href="https://music.apple.com/de/artist/phi-lemon/1817197990" target="_blank">
       <img src="Applemusic_icon.PNG" alt="Apple Music Icon">
     </a>
     <a href="https://tidal.com/browse/artist/61163458?u" target="_blank">
       <img src="Tidal_icon.JPG" alt="Tidal Icon">
     </a>
-    <!-- Zeile 3 -->
     <a href="https://music.youtube.com/playlist?list=OLAK5uy_kJGbUQxLlkPsUFyq5n8Ih7Zk_atZC70PQ&feature=shared" target="_blank">
       <img src="Youtubemusic_icon.jpg" alt="YouTube Music Icon">
     </a>

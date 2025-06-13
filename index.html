@@ -20,9 +20,6 @@ img {
 a {
     color: #1e90ff;
     text-decoration: none;
-    font-size: 40px;
-    display: inline-block;
-    margin: 60px 0;
 }
 a:hover {
     text-decoration: underline;
@@ -66,8 +63,7 @@ p {
     font-size: 44px;
     padding: 0 40px;
 }
-
-/* Stil für blinkenden hellrosa Text */
+/* blinkender hellrosa Text */
 .blink-text {
     font-size: 64px;
     color: #f4a9c0;
@@ -81,7 +77,20 @@ p {
 @keyframes blink-animation {
     50% { opacity: 0; }
 }
-
+/* Listen-Icons vertikal */
+.listen-icons {
+    display: inline-block;
+    text-align: center;
+    margin: 20px 0;
+}
+.listen-icons a {
+    display: block;
+    margin: 20px 0;
+}
+.listen-icons img {
+    width: 100px;
+    height: auto;
+}
 /* Desktop-Anpassung */
 @media (min-width: 1024px) {
     body { font-size: 18px; }
@@ -91,7 +100,6 @@ p {
     p { margin: 20px 0; }
     input, textarea { font-size: 14px; padding: 8px; max-width: 400px; }
     button { font-size: 14px; padding: 8px 16px; }
-    a { font-size: 18px; margin: 30px 0; }
     img { max-width: 50%; }
 }
 </style>
@@ -106,18 +114,17 @@ p {
 
   <p class="section-title">Listen on</p>
 
-  <a href="https://phi-lemon.bandcamp.com/album/the-japan-demos" target="_blank">
-    <img src="BandCamp_icon.png" alt="Bandcamp Icon" style="width:100px; height:auto; margin:10px;">
-  </a>
-
-  <p>
+  <div class="listen-icons">
+    <a href="https://phi-lemon.bandcamp.com/album/the-japan-demos" target="_blank">
+      <img src="BandCamp_icon.png" alt="Bandcamp Icon">
+    </a>
     <a href="https://open.spotify.com/artist/0tCPruIfDDJshWQXiA0taS?si=5aRl4yj0TfiRksjWsU1EqA" target="_blank">
-      <img src="Spotify_icon.PNG" alt="Spotify Icon" style="width:100px; height:auto; margin:10px;">
+      <img src="Spotify_icon.PNG" alt="Spotify Icon">
     </a>
     <a href="https://music.apple.com/de/artist/phi-lemon/1817197990" target="_blank">
-      <img src="Applemusic_icon.PNG" alt="Apple Music Icon" style="width:100px; height:auto; margin:10px;">
+      <img src="Applemusic_icon.PNG" alt="Apple Music Icon">
     </a>
-  </p>
+  </div>
 
   <img src="Phi_Lemon_quadratisch.jpg" alt="Phi Lemon quadratisch">
 
@@ -131,7 +138,6 @@ p {
 
   <p class="blink-text">Japan Summer Tour 2025</p>
   <div style="height:10px;"></div>
-  <!-- Phi_Lemon_japanisch.JPG -->
   <img src="Phi_Lemon_japanisch.JPG" alt="Phi Lemon Japanisch">
   <div style="height:10px;"></div>
   <p class="blink-text2">Dates are coming soon</p>

@@ -25,7 +25,7 @@
   p { margin: 20px 0; }
 
   .section-title { font-size: 28px; margin-bottom: 20px; }
-  .pressetext { 
+  .pressetext {
     max-width: 900px;
     margin: 0 auto;
     font-size: 18px;
@@ -40,9 +40,20 @@
   .blink-text2 { font-size: 28px; color: #fff; }
   @keyframes blink-animation { 50%{opacity:0;} }
 
-  .listen-icons { display: block; width:100%; margin:20px 0; }
-  .listen-icons a { display:block; margin:20px auto; }
-  .listen-icons img { width:200px; height:auto; }
+  .listen-icons {
+    display: block;
+    width:100%;
+    margin:20px 0;
+  }
+  .listen-icons a {
+    display:block;
+    margin:20px auto;
+  }
+  /* Streaming-Icons kleiner */
+  .listen-icons img {
+    width: 150px;
+    height: auto;
+  }
 
   input, textarea {
     width: 80%; max-width: 400px;
@@ -61,15 +72,19 @@
   button:hover { background: #555; }
   form { margin-top: 40px; }
 
-  /* Mobile: kompaktere Größen */
-  @media (max-width: 1023px) {
+  /* Mobile: noch kompakter */
+  @media (max-width:1023px) {
     body { font-size: 20px; }
     .section-title { font-size: 36px; }
     .pressetext { font-size: 20px; padding: 0 30px; }
     .blink-text, .blink-text2 { font-size: 36px; }
     img { max-width: 90%; margin: 15px 0; }
     p { margin: 40px 0; }
-    .listen-icons img { width: 80vw; max-width: 180px; }
+    /* Streaming-Icons auch kleiner auf Mobile */
+    .listen-icons img {
+      width: 120px;
+      max-width: 60vw;
+    }
     input, textarea {
       font-size: 18px; padding: 12px; max-width: 500px; margin: 15px 0;
     }

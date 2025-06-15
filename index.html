@@ -56,7 +56,7 @@
     .blink-text2 { font-size: 28px; color: #fff; }
     @keyframes blink-animation { 50% { opacity: 0; } }
 
-    /* Listen-Icons als Flex-Grid */
+    /* Listen-Icons as Flex Grid */
     .listen-icons {
       display: flex;
       flex-wrap: wrap;
@@ -85,16 +85,15 @@
     button:hover { background: #555; }
     form { margin-top: 40px; }
 
-    /* Desktop: Icons 1.5× groß */
+    /* Desktop: Icons 1.5× size */
     @media (min-width: 1024px) {
       .listen-icons img { width: 225px; }
     }
 
-    /* Mobile: zwei Icons pro Reihe, Text etwas kleiner */
+    /* Mobile: two icons per row, smaller text */
     @media (max-width: 1023px) {
       body { font-size: 16px; }
       .section-title { font-size: 32px; }
-      /* pressetext und blink-text/-text2 beibehalten wie bisher */
       .listen-icons {
         max-width: none;
         gap: 10px;
@@ -168,6 +167,9 @@
     <textarea name="message" rows="5" placeholder="Message" required></textarea><br>
     <button type="submit">Absenden</button>
   </form>
+
+  <!-- Link unter dem Formular -->
+  <p><a href="Phi-Lemon-Rider-EN.pdf" target="_blank">Download Stagerider here</a></p>
 
   <img src="1745793875567_filtered 2.JPG" alt="Additional Image">
 

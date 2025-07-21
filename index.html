@@ -37,9 +37,10 @@
       padding: 0;
     }
     img {
+      display: block;
       max-width: 40%;
       height: auto;
-      margin: 20px 0;
+      margin: 20px auto;
     }
     a { text-decoration: none; color: #1e90ff; }
     a:hover { text-decoration: underline; }
@@ -61,7 +62,7 @@
     .blink-text2 { font-size: 28px; color: #fff; }
     @keyframes blink-animation { 50% { opacity: 0; } }
 
-    /* Listen-Icons as Flex Grid */
+    /* Listen-Icons as two-column flex grid */
     .listen-icons {
       display: flex;
       flex-wrap: wrap;
@@ -70,8 +71,16 @@
       margin: 20px auto;
       max-width: 480px;
     }
-    .listen-icons a { margin: 0; }
-    .listen-icons img { width: 150px; height: auto; }
+    .listen-icons a {
+      flex: 0 0 48%;
+      margin: 0;
+    }
+    .listen-icons img {
+      width: 150px;
+      height: auto;
+      display: block;
+      margin: 0 auto;
+    }
 
     input, textarea {
       width: 80%; max-width: 400px;
@@ -90,9 +99,11 @@
     button:hover { background: #555; }
     form { margin-top: 40px; }
 
-    /* Desktop: Icons 1.5× size */
+    /* Desktop: Icons larger */
     @media (min-width: 1024px) {
-      .listen-icons img { width: 225px; }
+      .listen-icons img {
+        width: 225px;
+      }
     }
 
     /* Mobile: two icons per row, smaller text */
@@ -101,15 +112,14 @@
       .section-title { font-size: 32px; }
       .listen-icons {
         max-width: none;
-        gap: 10px;
-        justify-content: space-between;
       }
-      .listen-icons a { flex: 0 0 48%; }
+      .listen-icons a {
+        flex: 0 0 48%;
+      }
       .listen-icons img {
         width: 120px;
-        max-width: none;
       }
-      img { max-width: 90%; margin: 15px 0; }
+      img { max-width: 90%; margin: 15px auto; }
       p { margin: 40px 0; }
       input, textarea {
         font-size: 18px; padding: 12px; max-width: 500px; margin: 15px 0;
